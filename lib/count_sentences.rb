@@ -16,8 +16,11 @@ class String
 
   def count_sentences
     array = []
-    array << self.split(/[\b.!?]/)
+    sentences = self.split(/[\b.!?]/)
+    if sentences != nil
+      array << sentences
+    end
     array
-    
+
   end
 end
