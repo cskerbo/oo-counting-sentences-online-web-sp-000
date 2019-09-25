@@ -20,7 +20,7 @@ class String
     if sentences != nil
       array << sentences
     end
-    array.count
+    array.size
 
   end
 end
