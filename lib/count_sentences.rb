@@ -20,6 +20,7 @@ class String
     if x != nil
       array << x
     end
+  end
     array.size
 
   end
