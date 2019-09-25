@@ -16,9 +16,9 @@ class String
 
   def count_sentences
     array = []
-    sentences = self.split(/[\b.!?]/)
-    if sentences != nil
-      array << sentences
+    self.split(/[\b.!?]/).each do |x|
+    if x != nil
+      array << x
     end
     array.size
 
