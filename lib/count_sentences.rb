@@ -21,7 +21,7 @@ class String
       array << x
     end
     end
-    array
+    array.count
 
 
   end
