@@ -22,7 +22,7 @@ class String
     end
   end
     array
-    array.size
+
 
   end
 end
