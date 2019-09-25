@@ -20,6 +20,7 @@ class String
       if x != ". "
       array << x
     end
+    end
     array
 
 
